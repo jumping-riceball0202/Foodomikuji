@@ -70,7 +70,7 @@ button:active {
   }
 
   #result {
-    font-size: 18px;     /* 結果テキストも読みやすく */
+    font-size: 24px;     /* 結果テキストも読みやすく */
     line-height: 1.6;
   }
 }
