@@ -55,3 +55,22 @@ button:active {
   font-weight: 700; /* 太字にする */
   font-family: 'Nico Moji', sans-serif;
 }
+
+/* スマホ画面向け（横幅600px以下） */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;     /* 文字サイズを少し大きく */
+    padding: 12px;       /* 余白を確保 */
+  }
+
+  button {
+    width: 90%;          /* 画面幅に合わせて大きく */
+    font-size: 20px;     /* 押しやすいサイズ */
+    padding: 14px 0;     /* 縦に広げる */
+  }
+
+  #result {
+    font-size: 18px;     /* 結果テキストも読みやすく */
+    line-height: 1.6;
+  }
+}
