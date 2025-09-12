@@ -12,5 +12,5 @@ document.getElementById("omikujiBtn").addEventListener("click", () => {
 
   // 結果を表示
   document.getElementById("result").innerHTML =
-  `今日の気分は…「<span class="result-word">${result}</span>」です！`;
+  `今日の気分は…<br>「<span class="result-word">${result}</span>」です！`;
 });
